@@ -1,0 +1,31 @@
+<link rel="import" href="../../packages/polymer/polymer.html">
+<polymer-element name="site-intro">
+  <template>
+    <link rel="stylesheet" type="text/css" href="../../style/css/master.css" />
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    
+    <div class="module-wrapper full-height full-width no-overflow" id="site-intro-wrapper">
+      
+      <div id="site-intro-clouds">
+        <div id="site-intro-cloud1" class="fixed site-intro-cloud">
+          <img src="../../images/cloud1.png" />
+        </div>
+        <div id="site-intro-cloud2" class="fixed site-intro-cloud">
+          <img src="../../images/cloud2.png" />
+        </div>
+        <div id="site-intro-cloud3" class="fixed site-intro-cloud">
+          <img src="../../images/cloud3.png" />
+        </div>
+      </div>
+      
+      <form id="site-intro-form" class="full-width center-center center">
+        <input type="text" id="site-intro-input" class="center font-large form-input" placeholder="Enter a place name" value="{{placeName}}" /><br />
+        <input type="submit" id="site-intro-submit" class="btn-rounded btn-primary font-medium" />
+      </form>
+      
+    </div>
+    
+  </template>
+  <script type="application/dart" src="site-intro.dart"></script>
+</polymer-element>
+

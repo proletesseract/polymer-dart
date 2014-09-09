@@ -1,0 +1,17 @@
+.form-input {
+  border: none;
+  border-radius: 5px;  
+  background-color: rgba(255,255,255,0.6);
+  color: $black;
+  &::-webkit-input-placeholder { color: $greyDark; }
+  &:-moz-placeholder { color: $greyDark; }
+  &::-moz-placeholder { color: $greyDark; }
+  &:-ms-input-placeholder { color: $greyDark; }
+}
+
+
+
+
+
+
+

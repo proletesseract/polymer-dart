@@ -1,0 +1,13 @@
+name: fuzzy_nemesis
+description: A sample Polymer application
+dependencies:
+    polymer: any
+    browser: any
+    tweenengine: any
+transformers:
+- polymer:
+    entry_points: web/index.html
+- $dart2js:
+    minify: false
+    verbose: true
+  

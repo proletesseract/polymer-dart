@@ -1,0 +1,77 @@
+// lists -----------------------------------------------------------------------
+
+.no-bullets { list-style-type: none; padding: 0; }
+
+// forms -----------------------------------------------------------------------
+
+.no-resize { resize: none; }
+
+// borders ---------------------------------------------------------------------
+
+.border-box { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// spacing ---------------------------------------------------------------------
+
+.no-padding { padding: 0; }
+.no-margin { margin: 0; }
+
+// display ---------------------------------------------------------------------
+
+.inline { display: inline; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+.absolute { position: absolute; }
+.no-overflow { overflow: hidden; }
+
+// position --------------------------------------------------------------------
+
+.fixed { position: fixed; }
+.pos-right { right: 0; }
+.pos-left { left: 0; }
+.pos-bottom { bottom: 0; }
+.pos-top { top: 0; }
+.relative { position: relative; }
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; }
+.clear-after:after { content:''; display:block; clear: both; }
+.center-center { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+.center-bottom { position: absolute; bottom: 0; left: 0; right: 0; margin: 0 auto; }
+.center-top { position: absolute; top: 0; left: 0; right: 0; margin: auto; }
+.center-left { position: absolute; bottom: 0; top: 0; left: 0; margin: 0 auto; }
+.center-right { position: absolute; bottom: 0; top: 0; right: 0; margin: 0 auto; }
+
+// text -----------------------------------------------------------------------
+
+.center { text-align: center; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+.no-wrap { white-space: nowrap }
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+
+// size ------------------------------------------------------------------------
+
+.full-width { width: 100%; }
+.full-height { height: 100%; display: block }
+.no-width { width: 0; }
+.no-height { height: 0; }
+.col-6-max-width { max-width: 490px; margin: 0 auto; 
+    @media (max-width: 991px){ float: none; }
+}
+.max-fill { max-width: 100%; }
+.two-column { width: 50%;}
+.three-column { width: 33.333%; }
+.four-column { width: 25%; }
+.five-column { width: 20%; }
+.five-double-column { width: 40% }
+.six-column { width: 16.666% }
+.seven-column { width: 14.286% }
+.eight-column {width: 12.5% }
+.nine-column {width: 11.111% }
+.ten-column {width: 10% }
+.eleven-column {width: 9.091% }
+.twelve-column {width: 8.333% }
+
+
+
